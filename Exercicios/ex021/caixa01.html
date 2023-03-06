@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        nav {
+          background-color: rgb(163, 163, 163);
+          padding: 3px;
+          box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.356);
+        }
+
+        nav > a {
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            margin-right: 10px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+        article {
+            background-color: rgb(121, 121, 121);
+            padding: 10px 20px;
+        }
+
+        article > aside {
+            background-color: lightgray;
+            margin: 10px 40px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: 6px;
+            padding: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+         <h1>Meu site</h1>
+         <nav>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+         </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Amor Vida Felicidade</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae consectetur voluptates sit blanditiis iusto, vel omnis dolore dolorem facilis ipsum commodi sint quidem sequi laboriosam voluptatibus culpa aut perspiciatis. Dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium veniam repellendus culpa recusandae tempore illo sapiente nostrum laudantium debitis alias! Molestiae corporis aliquam ut saepe corrupti illo, quos voluptatem rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet dicta neque, architecto vel consequuntur dignissimos voluptatibus qui eos beatae enim ab? Corporis vitae porro odit eveniet cum eaque dignissimos.</p>
+                <aside>
+                    <p>Artigo escrito por Tasso Halal</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Tasso</p>
+    </footer>
+</body>
+</html>

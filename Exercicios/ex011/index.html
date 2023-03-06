@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>Tente abrir esse site em bários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+       <img src="imagens/fotog.png" alt="Foto Grande">
+    </picture>
+
+    <h1>Reprodusindo Áudios</h1>
+     <p>Vamos reproduzir áudios em HTML5</p>
+     <!--- MP3 WAV OGG-->
+     <audio preload="metadata" autoplay controls>
+        <source src="midia/zulu.mp3" type="audio/mpeg">
+        <source src="midia/zulu.ogg" type="audio/ogg">
+        <source src="midia/zulu.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio</p>
+        <p><a href="midia/zulu.mp3">Baixe</a> aqui o arquio vo mp3</p>
+     </audio>
+</body>
+</html>
